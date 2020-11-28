@@ -125,7 +125,7 @@ export default {
         .then(() => {
           this.$dialog.alert({
             title: "Success!",
-            message: "<strong>Post is deleted!</strong>",
+            message: "<strong>Bookmark deleted!</strong>",
             type: "is-success",
           });
           this.isLoading = false;
@@ -189,7 +189,7 @@ export default {
           .then(() => {
             this.$dialog.alert({
               title: "Success!",
-              message: "<strong>Post is Added!</strong>",
+              message: "<strong>Bookmark Added!</strong>",
               type: "is-success",
             });
             this.isLoading = false;
